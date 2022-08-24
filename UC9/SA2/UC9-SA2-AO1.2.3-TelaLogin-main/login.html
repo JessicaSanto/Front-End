@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - E-players</title>
-    <link rel="stylesheet" href="login.css">
-</head>
-<body>
-    <header>
-        <div class="container cabecalho">
-            <a href="#"> <img class="logo" src="img/Logo_eplayers.svg" alt="Logo do site E-Players"> </a>
-            <nav id="menu" class="menu">
-                <a href="#">Inicio</a>
-                <a href="login.html" target="_blank">Login</a>
-                <a href="#" target="_blank">Campeonato</a>
-                <a href="#" target="_blank">Resultados</a>
-                <a href="#" target="_blank">Noticias</a>
-            </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-players - Login</title>
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+        <header>
+            <div class="container-grid posicionamento-header">
+                <a href="#"><img src="img/logo.svg" alt="Logo do site E-Players"></a>
+                <nav id="menu" class="menu">
+                    <a href="index.html">Início</a>
+                    <a href="#">Horários</a>
+                    <a href="#">Campeonatos</a> 
+                    <a href="#">Resultados</a>
+                    <a href="#">Notícias</a>
+                    <a href="login.html">Login</a>
+                </nav>
+                <a href="#" id="barras"><img class="barras" src="img/bars.svg" alt="Menu de barras"></a>
+                <!-- <a href="#" onclick="mostrarMenu()"><img class="barras" src="img/bars.svg" alt="Menu de barras"></a> -->
+            </div>
+        </header>
+        <div class="login">
+            <div class="campo-email">
+                <label>E-mail</label>
+                <input type="email" placeholder="Ex: email@email.com">
+            </div>
+            <div class="campo-senha">
+                <label>Senha</label>
+                <input type="password" placeholder="Digite sua senha">
+            </div>
+
+            <button class="botao-enviar">Enviar</button>
         </div>
-    </header>
-</body>
+    </body>
 </html>
